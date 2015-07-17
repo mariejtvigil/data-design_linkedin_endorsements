@@ -5,12 +5,10 @@
 - background color
 */
 
-.top banner {
+.topBanner {
 	background-color: black;
-	width: auto
-	height: 20px
-
-
+	width: auto;
+	height: 20px;
 }
 
 /* Main Content */
