@@ -3,17 +3,35 @@
 /* Top Banner
 -logo
 - background color
+-black band
 */
 
 .topBanner {
-	background-color: ;
-	width: ;
-	height: ;
+	background-color: black;
+	width: auto;
+	height: 50px;
+	opacity: .5;
+	filter: alpha(opacity=60); /* For IE8 and earlier */;
+}
+
+.logo {
+	width:44px;
+	height:36px;
+	padding: 5px;
+}
+
+.blackBand {
+	background-color: black;
+	width: auto;
+	height: 25px;
+
 }
 
 .profileImage {
-	width: ;
-	height: ;
+	border-radius:50% 50% 50% 50%;
+	width: 80px;
+	height: 80px;
+	padding: 5px;
 
 }
 
