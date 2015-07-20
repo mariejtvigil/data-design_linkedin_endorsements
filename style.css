@@ -9,6 +9,17 @@ body {
 
 }
 
+h1, h2{
+	color: black;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+
+}
+
+
+
 /* Top Banner
 - logo
 - background color behind logo
@@ -49,8 +60,7 @@ body {
 	border-radius: 50% 50% 50% 50%;
 	width: 80px;
 	height: 80px;
-	padding: 5px;
-	margin: 10px;
+	margin: 5px;
 	background-color: white;
 }
 
@@ -63,31 +73,43 @@ body {
 /* Section Background*/
 
 .main-container{
-	background-color: black;
+	background-color: gray;
+	opacity: .5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */;
 	width: auto;
 	height: auto;
 	padding-bottom: 30px;
-	opacity: .1;
-	filter: alpha(opacity=10); /* For IE8 and earlier */;
 
 }
 
 /* Flexbox description blocks*/
 
 
-.flexItem2 {
+.flexItem1 {
 	background: white;
+	margin-top: 10px;
 	margin-left: 20px;
-	margin-bottom: 25px;
-	padding: 30px;
-	width: 80%;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	width: 70%;
 	height: auto;
 	text-align: left;
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
-	opacity: .5;
-	filter: alpha(opacity=50); /* For IE8 and earlier */;
+}
+
+
+/* Entity–Relationship Models*/
+
+
+.imageERM {
+	padding: 5px;
+	width: auto;
+	height: auto;
 
 }
 
